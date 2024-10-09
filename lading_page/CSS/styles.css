@@ -7,11 +7,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-}
-
 header img.logo {
     display: block;
     margin: 0 auto;
@@ -117,6 +112,15 @@ footer p {
 header {
     position: relative;
     z-index: 10;
+    background-color: #305473;
+}
+
+header h1 {
+    color: white;
+}
+
+header .nav-link {
+    color: white;
 }
 
 /* Estilos del contenido principal */
@@ -129,7 +133,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #305473;
     color: #fff;
     text-align: center;
     padding: 1rem;
