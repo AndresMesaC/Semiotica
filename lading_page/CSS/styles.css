@@ -203,3 +203,10 @@ nav {
     filter: invert(1);
     /* Cambia el color de los íconos a blanco */
 }
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
