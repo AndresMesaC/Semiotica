@@ -5,72 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASTECH - Tu tienda de tecnología</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header class="py-3" style="background-color: #305274">
+    <header class="py-3" id="py-3">
         <div class="container-fluid d-flex justify-content-between align-items-center">
-            <!-- Logo a la izquierda -->
             <div class="d-flex align-items-center">
                 <img src="assets/Images/Icono2.jpg" alt="Logo de la empresa" class="img-fluid footer-logo"
                     style="width: 100px;">
             </div>
-
-            <!-- Título centrado y estilizado -->
-            <h1 class="mb-0 text-center mx-auto"
-                style="font-size: 3rem; font-family: 'Orbitron', sans-serif; color: white;">MASTECH</h1>
-
-            <!-- Elemento vacío para mantener la alineación -->
+            <h1 class="mb-0 text-center mx-auto" id="Adquisicion">
+                MASTECH - Bienvenido</h1>
             <div style="width: 100px;"></div>
         </div>
-
+        <div class="d-flex justify-content-end mt-2 me-3">
+            <label for="modo-oscuro" class="text-light me-2" style="font-size: 1rem;">Modo Oscuro</label>
+            <input type="checkbox" id="modo-oscuro" class="modo-oscuro-toggle">
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-light" type="submit">Buscar</button>
-                        </form>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home.html">
+                                <i class="fas fa-home"></i> Página Principal
+                            </a>
+                        </li>
                     </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" id="buscar" placeholder="Buscar"
+                            aria-label="Search">
+                        <button class="btn btn-light" type="submit" id="btn-buscar">
+                            <i class="fas fa-search"></i> Buscar
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- Estructura con bloques a los lados del carrusel -->
     <div class="carousel-container">
         <div id="carousel" class="carousel slide" data-ride="carousel"
             style="width: 100%; height: 60vh; overflow: hidden; background-color: #2b2b2b;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/ImagenesFondo/Imagen1.jpg" class="d-block w-100 h-100" alt="ProductosTecnológicos"
-                        style="object-fit: cover;">
+                    <img src="assets/Images/ImagenesFondo/Imagen1.jpg" class="d-block w-100 h-100"
+                        alt="ProductosTecnológicos" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/ImagenesFondo/Imagen2.jpg" class="d-block w-100 h-100" alt="ProductosTecnológicos"
-                        style="object-fit: cover;">
+                    <img src="assets/Images/ImagenesFondo/Imagen2.jpg" class="d-block w-100 h-100"
+                        alt="ProductosTecnológicos" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/ImagenesFondo/Imagen3.jpg" class="d-block w-100 h-100" alt="ProductosTecnológicos"
-                        style="object-fit: cover;">
+                    <img src="assets/Images/ImagenesFondo/Imagen3.jpg" class="d-block w-100 h-100"
+                        alt="ProductosTecnológicos" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/ImagenesFondo/Imagen4.jpg" class="d-block w-100 h-100" alt="ProductosTecnológicos"
-                        style="object-fit: cover;">
+                    <img src="assets/Images/ImagenesFondo/Imagen4.jpg" class="d-block w-100 h-100"
+                        alt="ProductosTecnológicos" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/ImagenesFondo/Imagen5.jpg" class="d-block w-100 h-100" alt="ProductosTecnológicos"
-                        style="object-fit: cover;">
+                    <img src="assets/Images/ImagenesFondo/Imagen5.jpg" class="d-block w-100 h-100"
+                        alt="ProductosTecnológicos" style="object-fit: cover;">
                 </div>
             </div>
-            <!-- Controles del carrusel -->
             <button class="carousel-control-prev" type="button" data-target="#carousel" data-slide="prev"
                 style="font-size: 0.8rem;">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,7 +92,7 @@
         </div>
     </div>
     <main class="container my-5">
-          <section id="beneficios" class="py-5" style="background-color: #697c8c; border-radius: 10px;">
+        <section id="beneficios" class="py-5" style="background-color: #697c8c; border-radius: 10px;">
             <div class="container">
                 <h2 class="text-center mb-5 text-white">Beneficios</h2>
                 <div class="row g-4">
@@ -93,7 +101,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Crecimiento en ventas</h5>
-                                <p class="card-text text-center">Incrementa la visibilidad de tus productos y maximiza las oportunidades de venta.</p>
+                                <p class="card-text text-center">Incrementa la visibilidad de tus productos y maximiza
+                                    las oportunidades de venta.</p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +110,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Mejora de la experiencia del cliente</h5>
-                                <p class="card-text text-center">Ofrece una experiencia fluida y satisfactoria para el cliente, mejorando la retención.</p>
+                                <p class="card-text text-center">Ofrece una experiencia fluida y satisfactoria para el
+                                    cliente, mejorando la retención.</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +119,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Expansión del negocio</h5>
-                                <p class="card-text text-center">Abre nuevas oportunidades y mercados para hacer crecer tu empresa.</p>
+                                <p class="card-text text-center">Abre nuevas oportunidades y mercados para hacer crecer
+                                    tu empresa.</p>
                             </div>
                         </div>
                     </div>
@@ -117,7 +128,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Aumento de la eficiencia</h5>
-                                <p class="card-text text-center">Optimiza procesos internos y reduce tiempos de gestión.</p>
+                                <p class="card-text text-center">Optimiza procesos internos y reduce tiempos de gestión.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -125,14 +137,15 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Gestión de Usuarios</h5>
-                                <p class="card-text text-center">Facilita la administración de usuarios con acceso controlado y seguro.</p>
+                                <p class="card-text text-center">Facilita la administración de usuarios con acceso
+                                    controlado y seguro.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="caracteristicas" class="py-5" style="background-color: #a6a6a6; border-radius: 10px;">
             <div class="container">
                 <h2 class="text-center mb-5 text-white">Características</h2>
@@ -142,7 +155,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Interfaz de Usuario (UI)</h5>
-                                <p class="card-text text-center">Intuitiva y atractiva para mejorar la experiencia del usuario.</p>
+                                <p class="card-text text-center">Intuitiva y atractiva para mejorar la experiencia del
+                                    usuario.</p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +164,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Diseño Responsivo</h5>
-                                <p class="card-text text-center">Adaptable a cualquier dispositivo para una experiencia fluida.</p>
+                                <p class="card-text text-center">Adaptable a cualquier dispositivo para una experiencia
+                                    fluida.</p>
                             </div>
                         </div>
                     </div>
@@ -181,17 +196,17 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="funcionalidades" class="py-5" style="background-color: #697c8c; border-radius: 10px;">
             <div class="container">
                 <h2 class="text-center mb-5 text-white">Funcionalidades</h2>
                 <div class="row g-4">
-                    <!-- Funcionalidades -->
                     <div class="col-md-4">
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Registro y Gestión de Usuarios</h5>
-                                <p class="card-text text-center">Administra de manera eficiente los usuarios y sus perfiles.</p>
+                                <p class="card-text text-center">Administra de manera eficiente los usuarios y sus
+                                    perfiles.</p>
                             </div>
                         </div>
                     </div>
@@ -199,7 +214,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Sistema de Recomendaciones Personalizadas</h5>
-                                <p class="card-text text-center">Ofrece recomendaciones ajustadas a las preferencias de cada usuario.</p>
+                                <p class="card-text text-center">Ofrece recomendaciones ajustadas a las preferencias de
+                                    cada usuario.</p>
                             </div>
                         </div>
                     </div>
@@ -207,7 +223,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Carrito de Compras</h5>
-                                <p class="card-text text-center">Facilita el proceso de compra con un carrito fácil de usar.</p>
+                                <p class="card-text text-center">Facilita el proceso de compra con un carrito fácil de
+                                    usar.</p>
                             </div>
                         </div>
                     </div>
@@ -215,7 +232,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Búsqueda Avanzada de Productos</h5>
-                                <p class="card-text text-center">Busca productos de forma rápida y eficiente con filtros avanzados.</p>
+                                <p class="card-text text-center">Busca productos de forma rápida y eficiente con filtros
+                                    avanzados.</p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +241,8 @@
                         <div class="card h-100 shadow-sm">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Valoraciones y Reseñas de Productos</h5>
-                                <p class="card-text text-center">Consulta las opiniones de otros usuarios antes de comprar.</p>
+                                <p class="card-text text-center">Consulta las opiniones de otros usuarios antes de
+                                    comprar.</p>
                             </div>
                         </div>
                     </div>
@@ -234,64 +253,88 @@
             <div class="container">
                 <h2 class="text-center mb-5 text-white">Equipo de Trabajo</h2>
                 <div class="row">
-                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center" style="background-color: #697c8c; height: 100%;">
+                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"
+                        style="background-color: #697c8c; height: 100%;">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle" src="assets/Images/FotoSaraM.JPG" alt="Sara Monsalve" style="width: 150px; height: 150px;" />
+                            <img class="mx-auto rounded-circle" src="assets/Images/FotoSaraM.JPG" alt="Sara Monsalve"
+                                style="width: 150px; height: 150px;" />
                             <h4>Sara Monsalve</h4>
                             <p class="text-muted">Líder</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Monsalve Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Monsalve Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Monsalve LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Monsalve Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Monsalve Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Monsalve LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <!-- Otros miembros del equipo aquí -->
-                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
+                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"
+                        style="height: 100%;">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle" src="assets/Images/FotoAndresM.JPG" alt="Andres Mesa" style="width: 150px; height: 150px;" />
+                            <img class="mx-auto rounded-circle" src="assets/Images/FotoAndresM.JPG" alt="Andres Mesa"
+                                style="width: 150px; height: 150px;" />
                             <h4>Andres Mesa</h4>
                             <p class="text-muted">Líder Desarrollador</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Mesa Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Mesa Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Mesa LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Mesa Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Mesa Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Mesa LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center" style="background-color: #697c8c; height: 100%;">
+                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"
+                        style="background-color: #697c8c; height: 100%;">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle" src="assets/Images/FotoSaraj.JPG" alt="Sara Jimenez" style="width: 150px; height: 150px;" />
+                            <img class="mx-auto rounded-circle" src="assets/Images/FotoSaraj.JPG" alt="Sara Jimenez"
+                                style="width: 150px; height: 150px;" />
                             <h4>Sara Jimenez</h4>
                             <p class="text-muted">Líder Diseño</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Jimenez Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Jimenez Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Sara Jimenez LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Jimenez Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Jimenez Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Sara Jimenez LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
+                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"
+                        style="height: 100%;">
                         <div class="team-member text-center">
-                            <img class="mx-auto rounded-circle" src="assets/Images/FotoAndresL.JPG" alt="Andres Lopez" style="width: 150px; height: 150px;" />
+                            <img class="mx-auto rounded-circle" src="assets/Images/FotoAndresL.JPG" alt="Andres Lopez"
+                                style="width: 150px; height: 150px;" />
                             <h4>Andres Lopez</h4>
                             <p class="text-muted">Lider Diseño</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Lopez Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Lopez Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Andres Lopez LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Lopez Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Lopez Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Andres Lopez LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center" style="height: 100%; background-color: #697c8c;">
+                    <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center"
+                        style="height: 100%; background-color: #697c8c;">
                         <div class="team-member text-center" style="padding: 20px; border-radius: 10px;">
-                            <img class="mx-auto rounded-circle" src="./assets/Images/FotoManuel.jpeg" alt="Manuel Correa" style="width: 150px; height: 150px;" />
+                            <img class="mx-auto rounded-circle" src="./assets/Images/FotoManuel.jpeg"
+                                alt="Manuel Correa" style="width: 150px; height: 150px;" />
                             <h4>Manuel Correa</h4>
                             <p class="text-muted">Desarrollador</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Manuel Correa Twitter Profile"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Manuel Correa Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Manuel Correa LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Manuel Correa Twitter Profile"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Manuel Correa Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="#!"
+                                    aria-label="Manuel Correa LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +343,6 @@
         </section>
         <section id="contacto" class="py-5" style="background-color: #a6a6a6;  border-radius: 10px;" id="contacto">
             <h2 class="text-center mb-4">Contáctanos</h2>
-            <!-- Formulario de contacto -->
             <form id="contactForm" class="mx-auto" style="max-width: 600px;">
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
@@ -320,8 +362,6 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-block mt-3">Enviar</button>
             </form>
-    
-            <!-- Sección de tabla para mostrar los datos -->
             <div id="tableSection" class="mt-5" style="display: none;">
                 <h2 class="text-center mb-4">Datos Capturados</h2>
                 <table class="table table-striped">
@@ -341,34 +381,35 @@
         </section>
     </main>
     <hr>
-    <footer class="text-light py-5" style="background-color: #305274">
+    <footer class="text-light py-5">
         <div class="container">
             <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <h3><a href="#" class="text-light">Equipo MAS</a></h3>
+                    <ul class="list-unstyled">
+                        <li>Sara Monsalve</li>
+                        <li>Andres Mesa</li>
+                        <li>Sara Jimenez</li>
+                        <li>Andres Lopez</li>
+                        <li>Manuel Correa</li>
+                    </ul>
+                </div>
                 <div class="col-md-4 text-center">
                     <h3>Redes sociales</h3>
-                    <div class="h-100 text-light">
-                        <div class="">
-                            <p>Instagram y Facebook: <strong>@MasTech</strong></p>
-                            <p>TikTok: <strong>MasTech</strong></p>
-                            <div class="d-flex justify-content-around mt-3">
-                                <a href="https://instagram.com/MasT" class="btn btn-primary" target="_blank">Visitar
-                                    Instagram</a>
-                                <a href="https://tiktok.com/@MasTech" class="btn btn-danger" target="_blank">Visitar
-                                    TikTok</a>
-                            </div>
+                    <div>
+                        <p>Instagram y Facebook: <strong>@MasTech</strong></p>
+                        <p>TikTok: <strong>MasTech</strong></p>
+                        <div class="d-flex justify-content-around mt-3">
+                            <a href="https://instagram.com/MasT" class="btn btn-primary" target="_blank">Instagram</a>
+                            <a href="https://tiktok.com/@MasTech" class="btn btn-danger" target="_blank">TikTok</a>
                         </div>
                     </div>
                 </div>
-                 <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center text-md-end">
                     <h3>Dirección</h3>
-                    <div class="h-100 text-light">
-                        <p>Estamos ubicados en el Politécnico Jaime Isaza Cadavid</p>
-                        </div>
-                    </div>
+                    <p>Estamos ubicados en el Politécnico Jaime Isaza Cadavid</p>
                 </div>
-
             </div>
-            <!-- Derechos reservados -->
             <div class="row mt-4">
                 <div class="col text-center">
                     <p>&copy; 2024 MASTECH. Todos los derechos reservados.</p>
@@ -376,39 +417,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script>
-            document.getElementById("contactForm").addEventListener("submit", function (event) {
-                event.preventDefault(); // Evitar el envío del formulario
-    
-                // Obtener los valores del formulario
-                const nombre = document.getElementById("nombre").value;
-                const email = document.getElementById("email").value;
-                const asunto = document.getElementById("asunto").value;
-                const mensaje = document.getElementById("mensaje").value;
-    
-                // Crear una nueva fila para la tabla
-                const newRow = document.createElement("tr");
-                newRow.innerHTML = `
-                    <td>${nombre}</td>
-                    <td>${email}</td>
-                    <td>${asunto}</td>
-                    <td>${mensaje}</td>
-                `;
-    
-                // Insertar la nueva fila en el cuerpo de la tabla
-                document.getElementById("formData").appendChild(newRow);
-    
-                // Mostrar la sección de la tabla
-                document.getElementById("tableSection").style.display = "block";
-    
-                // Limpiar el formulario
-                this.reset();
-            });
-        </script>
+    <script src="js/Index.js"></script>
 </body>
 
 </html>

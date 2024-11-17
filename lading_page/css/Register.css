@@ -1,0 +1,249 @@
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #305473;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.py-3{
+    background-color: #305274;
+}
+
+.img-fluid{
+    width: 100px;
+}
+
+#sesion{
+    color: white;
+    font-size: 3rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buscar{
+    border-radius: 15px;
+    border-color: #305274;
+}
+
+#btn-buscar{
+    border-radius: 15px;
+    border-color: #305274;
+    background-color: #697c8c;
+}
+
+#btn-limpiar {
+    background: #697c8c;
+    border-radius: 15px;
+    border-color: #305274;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-register {
+    background: #697c8c;
+    border-radius: 15px;
+    border-color: #305274;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.table {
+    background-color: #f8f9fa;
+}
+
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-item .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem; /* Tamaño de letra aumentado */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre ícono y texto */
+}
+
+.dropdown-item {
+    font-size: 1rem; /* Tamaño de letra en el dropdown */
+}
+
+.form-control {
+    border-radius: 20px; /* Borde redondeado */
+}
+
+.btn-light {
+    border-radius: 20px; /* Botón redondeado */
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#userUsuario {
+    font-size: 1.1rem; /* Tamaño de la fuente para el usuario */
+    font-weight: bold;
+}
+
+.modo-oscuro body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.modo-oscuro .table {
+    background-color: #333;
+    color: #fff;
+}
+
+.modo-oscuro {
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+.modo-oscuro .navbar, 
+.modo-oscuro .form-signin,
+.modo-oscuro .bg-light, 
+.modo-oscuro footer {
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+.modo-oscuro .form-control {
+    background-color: #444444; 
+    color: #ffffff; 
+    border-color: #555555; 
+}
+
+.modo-oscuro .btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+.modo-oscuro-toggle {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    appearance: none;
+    background-color: #ddd;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.modo-oscuro-toggle:checked {
+    background-color: #444;
+}
+.modo-oscuro-toggle:checked::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.modo-oscuro-toggle:checked::before {
+    left: 27px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header, .navbar, .card {
+    background-color: #f8f9fa;
+}
+
+
+/* Modo oscuro */
+body.modo-oscuro {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/*body.modo-oscuro header,*/
+body.modo-oscuro footer,
+body.modo-oscuro .navbar,
+body.modo-oscuro .card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+body.modo-oscuro .btn {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+body.modo-oscuro .card-header,
+body.modo-oscuro .card-body {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.modo-oscuro #RegisterForm h1 {
+    background-color: #ffffff !important; 
+    color: #000000 !important;
+}
+
+.modo-oscuro #RegisterForm .form-check-label img {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+body.modo-oscuro #seleccion-imagen {
+    background-color: #333;
+    color: #fff;
+}
+
+body.modo-oscuro #seleccion-imagen label {
+    color: #fff;
+}

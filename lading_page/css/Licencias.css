@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+main {
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form .form-control {
+    border-radius: 0;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.team-image {
+    width: 1px;
+    height: 10px;
+}
+
+main {
+    position: relative;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+}
+
+footer {
+    background-color: #305473;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header img.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    background-color: #305473;
+}
+
+header h1 {
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+
+.card-header {
+    background-color: #697c8c;
+}
+
+#user {
+    position: relative;
+    top: 26px;
+    left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#userUsuario {
+    position: relative;
+    top: 26px;
+    left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#buscar {
+    position: relative;
+    left: 340px;
+    border-color: #305274;
+    border-radius: 15px;
+}
+
+#btn-buscar {
+    position: relative;
+    left: 350px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: #305274;
+    background-color: #697c8c;
+}
+
+#licencias-adq {
+    position: relative;
+    color: black;
+    left: 320px;
+    top: 20px;
+}
+
+#Adquisicion {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Adquisicion:hover {
+    background-color: #004494;
+}
+
+#Registro {
+    position: relative;
+    color: black;
+    left: 320px;
+    top: 20px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.table {
+    background-color: #f8f9fa;
+}
+
+ .card {
+    background-color: #f8f9fa;
+}
+
+
+.star-rating {
+    font-size: 1.5em;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating .star {
+    color: #ccc;
+}
+
+.star-rating .star.selected {
+    color: gold;
+}
+
+.star-rating .star:hover,
+.star-rating .star.selected:hover {
+    color: gold;
+}
+
+.rating {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating span {
+    font-size: 24px;
+    color: gray;
+}
+
+.rating .selected {
+    color: gold;
+}
+
+.dropdown-item {
+    font-size: 1rem; /* Tamaño de letra en el dropdown */
+}
+
+.form-control {
+    border-radius: 20px; /* Borde redondeado */
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-item .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+header .nav-link {
+    color: white;
+}
+
+.btn-light {
+    border-radius: 20px; /* Botón redondeado */
+}
+
+.modo-oscuro-toggle {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    appearance: none;
+    background-color: #ddd;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modo-oscuro-toggle:checked {
+    background-color: #444;
+}
+
+.modo-oscuro-toggle:checked::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.modo-oscuro-toggle:checked::before {
+    left: 27px;
+}
+
+.modo-oscuro body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.modo-oscuro .table {
+    background-color: #333;
+    color: #fff;
+}
+
+.modo-oscuro  h2 {
+    background-color: #ffffff !important; 
+    color: #000000 !important;
+}
+
+body.modo-oscuro {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.modo-oscuro footer,
+body.modo-oscuro .navbar,
+body.modo-oscuro .card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+body.modo-oscuro .btn {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+body.modo-oscuro .card-header,
+body.modo-oscuro .card-body {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.star-rating .star.selected {
+    color: gold;
+}
+
+.star-rating .star:hover {
+    color: gold; 
+}
+
+.modo-oscuro .star-rating .star.selected {
+    color: gold;  
+}
+
+.modo-oscuro .star-rating .star {
+    color: #666; 
+}
+
+.modo-oscuro .star-rating .star:hover {
+    color: gold; 
+}
+
+.modo-oscuro-toggle {
+    transform: scale(1.2); /* Aumenta el tamaño del toggle */
+}
+
+#Adquisicion {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Tabla en modo oscuro */
+body.modo-oscuro .table {
+    color: #ffffff; /* Texto blanco */
+}
+
+body.modo-oscuro .table thead th {
+    color: #ffffff; /* Texto blanco para encabezados */
+}
+
+body.modo-oscuro .table tbody th {
+    color: #ffffff; /* Texto blanco para las celdas en la primera columna */
+}
+
+body.modo-oscuro .table td, 
+body.modo-oscuro .table th {
+    border-color: #444444; /* Bordes oscuros para mejor visibilidad */
+}
+
+
